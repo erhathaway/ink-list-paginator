@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "rootDir": "src",
+      "outDir": "dist",
+      "target": "es2019",
+      "module": "commonjs",
+      "lib": ["dom", "es2017", "es2019"],
+      "declaration": true,
+      "declarationMap": true,
+      "jsx": "react",
+      "strict": true,
+      "strictNullChecks": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "skipLibCheck": true
+    },
+    "exclude": ["**/tests/**/*", "**/dist/**/*", "**/examples/**/*"]
+  }

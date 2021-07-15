@@ -1,0 +1,60 @@
+{
+    "name": "ink-list-paginator",
+    "version": "0.1.0",
+    "description": "A list pagination component for React Ink. Works out of the box with ink-table",
+    "author": "Ethan Hathaway erhathaway@gmail.com",
+    "license": "MIT",
+    "type": "commonjs",
+    "main": "dist/index.js",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "clean": "rimraf coverage build tmp dist",
+        "build": "npm run clean && tsc",
+        "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+        "prettier:fix": "prettier \"src/**/*\" --write",
+        "prettier:check": "prettier \"src/**/*\" --check",
+        "test": "jest --coverage --passWithNoTests",
+        "test:watch": "jest --watch",
+        "type-check:watch": "npm run type-check -- --watch",
+        "type-check": "tsc --noEmit"
+    },
+    "peerDependencies": {
+        "ink": ">=3.0.0",
+        "react": ">=16.8.0"
+    },
+    "keywords": [
+        "cli",
+        "ink-cli",
+        "ink",
+        "table",
+        "ink-table",
+        "ink-component",
+        "component",
+        "pagination",
+        "list"
+    ],
+    "devDependencies": {
+        "@types/jest": "^26.0.23",
+        "@types/node": "^15.0.3",
+        "@types/react": "^17.0.5",
+        "@typescript-eslint/eslint-plugin": "^4.23.0",
+        "@typescript-eslint/parser": "^4.23.0",
+        "esbuild": "^0.11.20",
+        "eslint": "^7.26.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-jest": "^24.3.6",
+        "eslint-plugin-react": "^7.23.2",
+        "husky": "^6.0.0",
+        "jest": "^26.6.3",
+        "nodemon": "^2.0.7",
+        "prettier": "^2.3.0",
+        "rimraf": "^3.0.2",
+        "ts-jest": "^26.5.6",
+        "ts-morph": "^10.0.2",
+        "ts-node": "^9.1.1",
+        "tsconfig-paths": "^3.9.0",
+        "typescript": "^4.2.4"
+    }
+}
