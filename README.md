@@ -1,6 +1,6 @@
 # ink-list-paginator
 
-A list pagination component for React Ink. Works out of the box with ink-table
+A list pagination component for React Ink. Works out of the box with [ink-table](https://github.com/maticzav/ink-table/)
 
 # Install
 
@@ -11,7 +11,7 @@ npm run --save ink-list-paginator
 
 This component is very simple. You may want to just copy the contents of [src/index.tsx](./src/index.tsx) instead of installing it. 
 
-The only dependencies are the two peer dependencies: `React` and `React Ink`
+The only dependencies are the two peer dependencies: `React` and [`React Ink`](https://github.com/maticzav/ink-table/)
 
 # Usage
 
