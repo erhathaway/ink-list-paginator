@@ -1,6 +1,6 @@
 {
     "name": "ink-list-paginator",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A list pagination component for React Ink. Works out of the box with ink-table",
     "author": "Ethan Hathaway erhathaway@gmail.com",
     "license": "MIT",

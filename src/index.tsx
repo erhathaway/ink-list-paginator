@@ -87,7 +87,9 @@ export const PaginatedList = <ListItem extends any>({
     });
 
     useEffect(() => {
-        const fn = () => setPaginatedListData(_ls.slice(...pageRange));
+        const rangeWithSliceSupport = [pageRange[0], pageRange[1] + 1] as [number, number];
+        const fn = () => setPaginatedListData(_ls.slice(...rangeWithSliceSupport));
+
         // TOOD add throttle here
         fn();
     }, pageRange);
